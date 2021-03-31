@@ -13,7 +13,7 @@ const routes = [
     name: "home",
     children: [
       {
-        path: "dashboard",
+        path: "/dashboard",
         name: "dashboard"
       }
     ]

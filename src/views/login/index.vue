@@ -144,10 +144,10 @@
                         })
 
                     } else {
-                        console.log('error submit!!');
                         return false;
                     }
                 });
+                this.$router.push("/dashboard/dashboard")
             },
         },
     };
